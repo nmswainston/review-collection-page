@@ -2,51 +2,49 @@
 
 A simple, embeddable page for collecting customer reviews.
 
-## Overview
+## Problem
 
-A focused single-purpose tool — a clean review submission form that can be embedded or linked to from any site. Customers land on the page, leave a review, and you collect structured feedback without any heavyweight CRM setup.
+Businesses want more customer reviews but the process of collecting them is clunky — most solutions require expensive third-party platforms or complex integrations.
+
+## Solution
+
+A focused, single-purpose review submission page that can be linked to from any email or website. Customers land, leave a review, and move on — no accounts, no friction.
+
+## Screenshots
+
+> *Add 2–4 screenshots here*
 
 ## Tech Stack
 
 - JavaScript
 - Vite
 - Tailwind CSS
-- PostCSS
 
-## Getting Started
+## Features
 
-### Prerequisites
+- Clean, distraction-free review submission form
+- Mobile-optimized layout
+- Star rating input
+- Lightweight — no dependencies beyond Vite and Tailwind
 
-- Node.js 18+
-- npm
-
-### Installation
+## Installation
 
 ```bash
 npm install
-```
-
-### Development
-
-```bash
 npm run dev
 ```
 
-### Build
+## Lessons Learned
 
-```bash
-npm run build
-```
+- Single-purpose tools work best when every element serves the core action
+- Reducing form fields dramatically increases completion rates
+- Tailwind's utility classes make responsive form layouts fast to build
 
-## Project Structure
+## Future Improvements
 
-```
-src/         # Form components and submission logic
-```
-
-## Deployment
-
-Build with `npm run build` and deploy the `dist/` folder to any static host or embed in an existing site.
+- Analytics dashboard to view and filter collected reviews
+- Multi-platform submission (send to Google, Yelp simultaneously)
+- Embeddable widget version
 
 ---
 
